@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main-Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUi Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="mx-5">
+    <section>
+        <div class="navbar bg-base-100 shadow-sm border-b-2 my-3 ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                >
+                <button class="btn ">Sort by view</button>
+              </div>
+               <img src="image/Logo.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <button class="btn ">Sort by view</button>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-secondary">Blog</a>
+            </div>
+          </div>
+    </section>
+    <!-- Links  -->
+     <section class="flex justify-center items-center  bg-gray-100">
+        <div class="flex space-x-2 bg-white p-2 rounded-lg shadow-md">
+            <button onclick="changePage(this, 'index.html')" class="tab-button active bg-red-500 text-white">All</button>
+            <button onclick="changePage(this, 'music.html')" class="tab-button">Music</button>
+            <button onclick="changePage(this, 'comedy.html')" class="tab-button">Comedy</button>
+            <button onclick="changePage(this, 'drawing.html')" class="tab-button">Drawing</button>
+        </div>
+     </section>
+
+
+     <script src="function.js"></script>
+  </body>
+</html>

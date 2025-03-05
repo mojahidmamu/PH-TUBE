@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*  */
+.tab-button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #e5e7eb; /* Default gray background */
+}
+.tab-button:hover {
+    background-color: #d1d5db;
+}
+.active {
+    background-color: #ef4444; /* Red background for active */
+    color: white;
+} 
