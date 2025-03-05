@@ -1,11 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home </title>
-</head>
-<body>
-    <h2>tihs is index...all </h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUi Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold text-center mb-12 mt-5">All Videos</h1>
+    <section>
+      <!-- <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ERCMXc8x7mc?si=KnAaxJhPLc-7dkW4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div> -->
+
+      <div class="grid grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <!-- Video 1 -->
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <div
+            class="w-full h-56 bg-gray-300 flex items-center justify-center rounded"
+          >
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ERCMXc8x7mc?si=KnAaxJhPLc-7dkW4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <div
+            class="w-full h-56 bg-gray-300 flex items-center justify-center rounded"
+          >
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/0HyIda5eub8?si=IzOdhAOSKB1RiyzY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <div
+            class="w-full h-56 bg-gray-300 flex items-center justify-center rounded"
+          >
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/UrsmFxEIp5k?si=GebWarjMGKbHx6Qt"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <div
+            class="w-full h-56 bg-gray-300 flex items-center justify-center rounded"
+          >
+            <span class="text-gray-500">Video 4</span>
+          </div>
+          <p class="text-center font-semibold mt-2">Video Title 4</p>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <div
+            class="w-full h-56 bg-gray-300 flex items-center justify-center rounded"
+          >
+            <span class="text-gray-500">Video 5</span>
+          </div>
+          <p class="text-center font-semibold mt-2">Video Title 5</p>
+        </div>
+
+        <!-- Video 6 -->
+        <div class="bg-white shadow-md p-4 rounded-lg">
+          <div
+            class="w-full h-56 bg-gray-300 flex items-center justify-center rounded"
+          >
+            <span class="text-gray-500">Video 6</span>
+          </div>
+          <p class="text-center font-semibold mt-2">Video Title 6</p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="my-5">
+        <button class="btn btn-outline">
+          <a href="main.html"> Go Home</a>
+        </button>
+      </div>
+    </section>
+  </body>
 </html>
